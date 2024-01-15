@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' type='image/png' href='media/logo.png'><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <title>Velvet Skin</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+     <div class="logo">Velvet Skin 
+       <span class="material-symbols-outlined">spa</span>
+     </div>
+         
+   <div class="links">
+     <ul class="nav-itens">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="sobre.html">Sobre</a></li>
+     <li><a href="faleconosco.html">Fale Conosco</a></li>
+     </ul>
+   </div>
+   <div class="btn">
+     <button href="#" class="login">Login</button>
+     <button href="#" class="cadastro">Cadastro</button>
+   </div>
+    <div class="search-box">
+       <input type="text" class="search-txt" placeholder="Pesquisa" height="40" width="300">
+         <a href="#" class="search-btn">
+       <img src="media/loupe.png" alt="lupa" height="20" width="20">
+         </a>
+    </div>
+    </nav>
+      <div class="container">
+        <div class="produto">
+            <img src="media/3.png" alt="Carolina Skin">
+            <h3>Carolina Skin</h3>
+        </div>
+        <div class="produto">
+           <img src="media/2.png" alt="Mel Skin">
+              
+              <h3>Maria Skin</h3>
+        </div>
+    
+        <div class="produto">
+           <img src="media/3.png" alt="Mel Skin">
+             <h3>Mel Skin</h3> 
+        </div>
+   
+       
+      </div>
+      <div class="text">
+        <h2>O produto perfeito para sua pele se encontra aqui!</h2>
+      </div>
+   
+      <main>
+      <div class="center">
+      <main>
+        <h1>Produtos</h1>
+        <table>
+          <tr>
+              <td>
+                  <img src="media/3.png" alt="Kit Carolina Skin"> 
+                   <button href="#" class="name-product">Kit Carolina Skin</button>
+              </td>
+              <td>
+                  <p>Descrição do Kit Carolina Skin.</p><br>
+                  <p>Este kit é ótimo para cuidados com a pele e contém</p>
+                  <p>formula para atender às necessidades da pele seca,</p>
+                  <p>proporcionando uma hidratação profunda </p>
+                  <p>e duradoura.</p>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <img src="media/2.png" alt="Maria's Cream">
+                   <button href="#" class="name-product">Maria's Cream</button>
+              </td>
+              <td>
+                  <p>Descrição do Maria's Cream.</p><br>
+                  <p>Este produto é conhecido por sua incrível capacidade</p>
+                  <p>Com uma fórmula leve e de rápida absorção, ele ajuda </p>
+                  <p>a controlar a produção de óleo excessivo, mantendo</p>
+                  <p> sua pele com uma aparência fresca e sem </p>
+                    <p> brilho ao longo do dia.</p>
+              </td>
+          </tr>
+      </table>
+       
+    
+    </main>
+   
+ 
+    <footer>
+        <p>Copyright &copy; 2023 - Todos os direitos reservados</p>
+        Loja Física: Rua das Tulipas, 123 - São Paulo <br>
+        Email: <a href="#">velvetskincontact@loja.com</a>
+        <div class="social-icons">
+            <a href="https://www.whatsapp.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+        </div>
+    </footer>
+    <script>
+            document.querySelector(".login").addEventListener("click", function() {
+                alert("Você clicou em Login.");
+                window.location.href = "formulario.html";
+            });
+    
+            
+            document.querySelector(".cadastro").addEventListener("click", function() {
+                alert("Você clicou em Cadastro.");
+                window.location.href = "cadastro.html";
+            });
+    
+            document.querySelector(".search-btn").addEventListener("click", function() {
+                const searchTerm = document.querySelector(".search-txt").value;
+                alert("Você pesquisou por: " + searchTerm);
+            });
+    </script>
+    
+</body>
+</html>
